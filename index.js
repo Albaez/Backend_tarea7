@@ -10,6 +10,7 @@ const corsOptions = {
     credentials : true,
     methods: ['GET', 'PUT', 'POST', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
+
 }
 app.use(cors(corsOptions));
 // Rutas

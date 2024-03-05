@@ -5,14 +5,13 @@ import {
     deletepelicula,
     getpelicula,
     postpelicula,
-    putpelicula,
+    putpelicula
 } from "../controllers/peliculaController.js";
 
 
-
-pelicula.post('', postpelicula);
-
 pelicula.get('/:pelicula_nombre', getpelicula);
+    
+pelicula.post('', postpelicula);
 
 pelicula.put('/:pelicula_nombre', putpelicula);
 
